@@ -13,20 +13,17 @@
     box-sizing: border-box;
 }
 
-html {
-    overflow: hidden;
-}
-
 body {
     background: var(--light-gray);
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    line-height: 1.5em;
 }
 
 .container {    
     display: flex;  
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
     justify-content: center;    
 }
@@ -50,15 +47,17 @@ img {
     border-radius: 1rem;
 }
 
-strong {
+h1 {
     color: var(--dark-blue);
     font-size: 23px;
+    line-height: 1.5em;
     font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-span {
-    --tw-text-opacity: 1;
-    color: rgb(212 212 216 / var(--tw-text-opacity));
+p {    
+    color: hsl(220deg, 15%, 55%)
 }
 
 span .space {
